@@ -52,7 +52,7 @@ const Register = () => {
                             photoURL: downloadURL,
                         });
                         await setDoc(doc(collection(db, "userChat"), res.user.uid), {});
-                        nav('/');
+                        nav('/Chat-App');
                     });
                 }
             );
@@ -77,7 +77,7 @@ const Register = () => {
                     </label>
                     <button>Sign up</button>
                     {err && <span>Something went wrong...</span>}
-                    <p>Do you have an account? <Link to='/login'>Login</Link></p>
+                    <p>Do you have an account? <Link to='/Chat-App/login'>Login</Link></p>
                 </form>
             </div>
         </div>
