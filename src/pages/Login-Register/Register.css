@@ -1,0 +1,58 @@
+.inputWrapper{
+    padding-top: 100px;
+}
+
+.inputForm{
+    width: 30%;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.inputForm input{
+    margin: 10px;
+    width: 80%;
+    border: none;
+    padding: 5px;
+    border-bottom: 2px solid lightgrey;
+}
+
+.inputForm input:focus{
+    outline: none;
+}
+
+.inputForm label{
+    display: flex;
+    gap: 10px;
+    margin-left: 30px;
+    justify-content: left;
+    align-items: center;
+}
+
+.inputForm label img{
+    width: 13%;
+}
+
+.inputForm button{
+    width: 80%;
+    background-color: #537FE7;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin: 15px 5px 5px 5px;
+    border: 1px solid lightgrey;
+}
+
+.inputForm button:hover{
+    border: 1px solid black;
+    font-size: 14px;
+}
+
+.inputForm button:active{
+    background-color: white;
+    color: #537FE7;
+    border: 2px solid #537FE7;
+}
