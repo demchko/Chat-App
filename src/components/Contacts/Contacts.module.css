@@ -1,0 +1,27 @@
+.list p{
+    text-align: center;
+    color: #537FE7;
+    font-weight: bold;
+}
+
+.block{
+    padding: 5px;
+    margin-top: 20px;
+    display: flex;
+    border-bottom: 1px solid lightgrey;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.block img{
+    margin-right: 3%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.block:hover{
+    box-shadow: 1px 1px 1px #537FE7;
+
+}

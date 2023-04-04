@@ -1,0 +1,35 @@
+.sidebar{
+    display: flex;
+    width: 35%;
+    border-right: 1px solid lightgrey;
+    box-shadow: 1px 1px 4px lightgrey;
+}
+
+.info{
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    width: 25%;
+    height: 100%;
+    background-color: #537FE7;
+}
+
+.info img{
+    border-radius: 25%;
+    width: 60%;
+    height: 13%;
+    margin-top: 10px;
+    object-fit: cover;
+    border: 2px solid #1a4bcb;
+}
+
+.info p{
+    text-align: center;
+    color: white;
+}
+
+.info button{
+    position: absolute;
+    bottom: 10px;
+    left: 25%;
+}

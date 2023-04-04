@@ -1,0 +1,40 @@
+.search{
+    margin-bottom: 15px;
+}
+
+.search input{
+    border: none;
+    border-bottom: 1px solid #537FE7;
+    width: 100%;
+}
+
+.search input:hover{
+    box-shadow: 1px 1px 1px #537FE7;
+}
+
+.search input:focus{
+    outline: none;
+}
+
+.block{
+    padding: 5px;
+    margin-top: 20px;
+    display: flex;
+    border-bottom: 1px solid lightgrey;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.block img{
+    margin-right: 3%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.block:hover{
+    box-shadow: 1px 1px 1px #537FE7;
+
+}
+

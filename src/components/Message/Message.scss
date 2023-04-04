@@ -2,41 +2,47 @@
     display: flex;
     margin-top: 10px;
     gap: 10px;
-}
 
-.messageInfo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    .messageInfo{
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        font-weight: 300;
+        img{
+            width: 40px;
+            border-radius: 100%;
+            object-fit: cover;
+            height: 40px;
+            width: 40px;
+        }
+    }
 
-.messageInfo img{
-    width: 40px;
-}
+    .messageContent{
+        display: flex;
+        flex-direction: column;
+        max-width: 80%;
+        gap: 10px;
 
-.messageContent{
-    max-width: 80%;
-    gap: 10px;
-    display: flex;
-    flex-direction: column;
-}
+        img{
+            width: 50%;
+        }
 
-.messageContent p{
-    border-radius: 0px 10px 10px 10px;
-    background-color: #92aff3;
-    padding: 10px;
-    max-width: max-content;
-}
+        p{
+            border-radius: 0px 10px 10px 10px;
+            background-color: #92aff3;
+            padding: 10px;
+            max-width: max-content;
+        }
+    }
 
-.message.owner{
-    flex-direction: row-reverse;
-}
-
-.message.owner .messageContent{
-    align-items: flex-end;
-}
-
-.message.owner .messageContent p{
-    background-color: #db92f3;
-    border-radius: 10px 0px 10px 10px;
+    &.owner{
+        flex-direction: row-reverse;
+        .messageContent{
+            align-items: end;
+            p{
+                background-color: #db92f3;
+                border-radius: 10px 0px 10px 10px;
+            }
+        }
+    }
 }
